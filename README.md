@@ -1,6 +1,7 @@
 # Julies portefoelje
 
 Startet 22.11.22 - KodeHode portefoelje
+
 [Plan](https://www.figma.com/file/v4gK0629BeAs4ZYR9qWkMY/Portfolio-Figjam?t=ih0VjeodijxVxGuA-6) og [design](https://www.figma.com/file/9COiMGMksWkuDFNPAX2EdX/Portfolio?t=ih0VjeodijxVxGuA-6) i Figma
 
 ## Sample project for a web page from Lars Gunnar
