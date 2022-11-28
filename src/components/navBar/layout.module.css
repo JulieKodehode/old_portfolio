@@ -1,5 +1,5 @@
 .navHeader {
-	height: 80px; /* Total 100px */
+	height: 100px;
 	background-color: blue;
 	display: flex;
 	flex-direction: row;
