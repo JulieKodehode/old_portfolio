@@ -1,0 +1,32 @@
+.navHeader {
+	height: 80px; /* Total 100px */
+	background-color: blue;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.navHeader nav {
+	background-color: red;
+}
+
+/* Replace with real logo at some point */
+.navHeader h1 {
+	border: 3px solid red;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+}
+
+.navUl {
+	list-style-type: none;
+	padding: 0;
+}
+
+.navUl li {
+	color: white;
+	padding: 10px;
+	display: inline-block;
+}

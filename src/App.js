@@ -1,18 +1,13 @@
+// Import
+
+import NavBar from "./components/navBar";
+
 function App() {
 	return (
 		// Routes and route here? OR ONE BIG SCROLL PAGE
 		<div>
 			{/* Header */}
-			<header>
-				<nav>
-					<ul>
-						<li>Hjem</li>
-						<li>Om meg</li>
-						<li>Prosjekter</li>
-						<li>Kontakt</li>
-					</ul>
-				</nav>
-			</header>
+			<NavBar />
 
 			{/* Main */}
 			<main>
