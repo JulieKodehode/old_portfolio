@@ -13,13 +13,10 @@ function App() {
 
 			{/* Main */}
 			<main>
+				{/* Home */}
 				<div>
 					<h1>Velkommen</h1>
-				</div>
-
-				<div>
-					<h3>Om meg</h3>
-					<p>lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem</p>
+					<p>Mitt navn er Julie, og jeg er en frontend-utvikler</p>
 				</div>
 
 				<div>
@@ -30,6 +27,13 @@ function App() {
 					/>
 				</div>
 
+				{/* About */}
+				<div>
+					<h3>Om meg</h3>
+					<p>lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem</p>
+				</div>
+
+				{/* Projects */}
 				<div>
 					<h3>Prosjekter</h3>
 					<p style={{ height: "100px", width: "100px", border: "5px solid black" }}>Prosjekt A</p>
@@ -37,6 +41,7 @@ function App() {
 					<p style={{ height: "100px", width: "100px", border: "5px solid black" }}>Prosjekt C</p>
 				</div>
 
+				{/* Contact */}
 				<div>
 					<h3>Kontakt</h3>
 					<p>Github link xyz</p>
