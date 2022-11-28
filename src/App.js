@@ -1,5 +1,7 @@
 // Import
 
+import "./styles/basic.css";
+
 import NavBar from "./components/navBar";
 
 function App() {

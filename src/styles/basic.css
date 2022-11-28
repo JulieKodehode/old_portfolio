@@ -1,0 +1,10 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+}
+
+/* 28.11.22 Responsive to mobile L (?) Is this an important part? */
