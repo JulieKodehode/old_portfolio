@@ -1,0 +1,45 @@
+/* General */
+.homeMain {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly; /*Closer?*/
+	align-items: center;
+	color: #010101; /*?*/
+	text-align: center;
+}
+
+/* Section left - portrait */
+.sectionLeft {
+	width: 500px;
+	/* background-color: aqua; */
+}
+
+.sectionLeft img {
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+}
+
+/* Section right - name, description */
+.sectionRight {
+	width: 500px;
+	/* background-color: chartreuse; */
+}
+
+.sectionRight h1,
+.sectionRight h3,
+.sectionRight p {
+	margin: 0;
+}
+
+.sectionRight h1 {
+	font-size: 130px;
+}
+
+.sectionRight h3 {
+	font-size: 34px;
+}
+
+.sectionRight p {
+	font-size: 21px;
+}
