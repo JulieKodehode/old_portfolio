@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 import "../styles/basic.css";
 
 // Components
-import NavBar from "../components/NavBar/NavBar";
+import NavBar from "../components/navBar/NavBar";
 import Footer from "../components/Footer";
 
 /**
