@@ -1,7 +1,8 @@
 // Libraries
 import { Outlet } from "react-router-dom";
 
-// CSS(?)
+// Styles
+import "../styles/basic.css";
 
 // Components
 import NavBar from "../components/navBar/NavBar";
