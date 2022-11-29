@@ -6,6 +6,7 @@ import "../styles/basic.css";
 
 // Components
 import NavBar from "../components/navBar/NavBar";
+import Footer from "../components/Footer";
 
 /**
  * This is the landing page of the project
@@ -17,7 +18,7 @@ const LandingPage = () => {
 
 			<Outlet />
 
-			{/* Footer */}
+			<Footer />
 		</>
 	);
 };
