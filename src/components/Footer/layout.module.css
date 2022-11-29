@@ -1,0 +1,13 @@
+.footer {
+	background-color: blue;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footerH3 {
+	color: white;
+	background-color: red;
+	padding: 10px;
+}

@@ -1,54 +1,35 @@
-// Import
+// Libraries
+import { Route, Routes } from "react-router-dom";
 
-import "./styles/basic.css";
+// Routes
+import LandingPage from "./routes/LandingPage";
+import HomePage from "./routes/Home/HomePage";
+import AboutPage from "./routes/About/AboutPage";
+import ProjectPage from "./routes/Projects/ProjectPage";
+import ContactPage from "./routes/Contact/ContactPage";
 
-import NavBar from "./components/navBar";
-
+/**
+ * This is the main application component
+ */
 function App() {
 	return (
-		// Routes and route here? OR ONE BIG SCROLL PAGE
-		<div>
-			{/* Header */}
-			<NavBar />
-
-			{/* Main */}
-			<main>
-				<div>
-					<h1>Velkommen</h1>
-				</div>
-
-				<div>
-					<h3>Om meg</h3>
-					<p>lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem</p>
-				</div>
-
-				<div>
-					<img
-						style={{ height: "100px", widht: "100px" }}
-						src="https://static.scientificamerican.com/sciam/cache/file/32665E6F-8D90-4567-9769D59E11DB7F26_source.jpg?w=590&h=800&7E4B4CAD-CAE1-4726-93D6A160C2B068B2"
-						alt="cat? me? what?"
-					/>
-				</div>
-
-				<div>
-					<h3>Prosjekter</h3>
-					<p style={{ height: "100px", width: "100px", border: "5px solid black" }}>Prosjekt A</p>
-					<p style={{ height: "100px", width: "100px", border: "5px solid black" }}>Prosjekt B</p>
-					<p style={{ height: "100px", width: "100px", border: "5px solid black" }}>Prosjekt C</p>
-				</div>
-
-				<div>
-					<h3>Kontakt</h3>
-					<p>Github link xyz</p>
-					<p>Gmail xyz</p>
-				</div>
-			</main>
-
-			{/* Footer */}
-			<footer>
-				<h4>BYE</h4>
-			</footer>
-		</div>
+		<Routes>
+			<Route path="/" element={<LandingPage />}>
+				<Route path="/" element={<HomePage />} />
+				<Route path="About" element={<AboutPage />} />
+				<Route path="Projects" element={<ProjectPage />} />
+				<Route path="Contact" element={<ContactPage />} />
+				<Route
+					path="*"
+					element={
+						<main>
+							<p>There is nothing here</p>
+						</main>
+					}
+					// * will match when nothing else matches
+				/>
+			</Route>
+		</Routes>
 	);
 }
 
