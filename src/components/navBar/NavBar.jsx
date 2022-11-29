@@ -1,5 +1,6 @@
-// Imports
-
+// Libraries
+import { NavLink } from "react-router-dom";
+// CSS
 import styles from "./layout.module.css";
 
 /**
@@ -11,10 +12,26 @@ const NavBar = () => {
 			<h1>JH</h1>
 			<nav>
 				<ul className={styles.navUl}>
-					<li>Hjem</li>
-					<li>Om meg</li>
-					<li>Prosjekter</li>
-					<li>Kontakt</li>
+					<li>
+						<NavLink title="Link to HomePage" to="/">
+							Hjem
+						</NavLink>
+					</li>
+					<li>
+						<NavLink title="Link to AboutPage" to="/About">
+							Om meg
+						</NavLink>
+					</li>
+					<li>
+						<NavLink title="Link to ProjectPage" to="/Projects">
+							Prosjekter
+						</NavLink>
+					</li>
+					<li>
+						<NavLink title="Link to ContactPage" to="/Contact">
+							Kontakt
+						</NavLink>
+					</li>
 				</ul>
 			</nav>
 		</header>

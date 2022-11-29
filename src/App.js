@@ -16,9 +16,18 @@ function App() {
 		<Routes>
 			<Route path="/" element={<LandingPage />}>
 				<Route path="/" element={<HomePage />} />
-				<Route path="/About" element={<AboutPage />} />
-				<Route path="/Projects" element={<ProjectPage />} />
-				<Route path="/Contact" element={<ContactPage />} />
+				<Route path="About" element={<AboutPage />} />
+				<Route path="Projects" element={<ProjectPage />} />
+				<Route path="Contact" element={<ContactPage />} />
+				<Route
+					path="*"
+					element={
+						<main>
+							<p>There is nothing here</p>
+						</main>
+					}
+					// * will match when nothing else matches
+				/>
 			</Route>
 		</Routes>
 	);
