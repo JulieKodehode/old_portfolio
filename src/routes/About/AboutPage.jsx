@@ -1,8 +1,12 @@
 const AboutPage = () => {
 	return (
-		<>
-			<h1>Om meg side</h1>
-		</>
+		<main>
+			{/* About */}
+			<section>
+				<h3>Om meg</h3>
+				<p>lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem</p>
+			</section>
+		</main>
 	);
 };
 
