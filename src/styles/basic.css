@@ -8,3 +8,14 @@ body {
 }
 
 /* 28.11.22 Responsive to mobile L (?) Is this an important part? */
+
+/* This is what makes the footer stick, look into this method. Found in react-example-simple-website. Understandable the height sets the view point, flex and column makes it flexible and vertical, and the flex grow 1 on main makes the main take 1 spot at all times(?) */
+#root {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+#root > main {
+	flex-grow: 1;
+}
