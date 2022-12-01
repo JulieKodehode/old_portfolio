@@ -1,6 +1,6 @@
 .footer {
-	background-color: blue;
-	height: 100px;
+	background-color: #1f2260;
+	height: 50px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -8,6 +8,6 @@
 
 .footerH3 {
 	color: white;
-	background-color: red;
+	/* background-color: red; */
 	padding: 10px;
 }
