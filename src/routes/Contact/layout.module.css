@@ -1,0 +1,34 @@
+.contactMain {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.contactSection {
+	text-align: center;
+	width: 500px;
+}
+
+.contactSection h3 {
+	font-size: 28px;
+}
+
+.contactSection ul {
+	display: inline-flex;
+	text-align: center;
+	gap: 20px;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+.contactSection ul li {
+	list-style-type: none;
+	font-size: 21px;
+}
+
+.contactIcons {
+	width: 30px;
+	height: 30px;
+	background-color: white;
+}
