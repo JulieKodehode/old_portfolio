@@ -1,0 +1,30 @@
+.aboutMain {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 100px;
+}
+
+.aboutSection {
+	width: 500px;
+	text-align: center;
+}
+
+.aboutSection h2 {
+	font-size: 28px;
+}
+
+.aboutSection p {
+	text-align: left;
+	font-size: 21px;
+}
+
+.aboutSection table {
+	margin: auto;
+	/* list-style-type: none; */
+}
+
+.aboutSection td {
+	padding: 5px;
+	font-size: 21px;
+}
