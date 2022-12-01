@@ -4,6 +4,7 @@
 	flex-direction: row;
 	justify-content: space-evenly; /*Closer?*/
 	align-items: center;
+	gap: 100px;
 	color: #010101; /*?*/
 	text-align: center;
 }
