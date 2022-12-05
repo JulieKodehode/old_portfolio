@@ -1,10 +1,14 @@
 * {
 	box-sizing: border-box;
+	/* color: black; BLUETHEME */
+	color: #1e1e1e;
 }
 
 html,
 body {
 	margin: 0;
+	/* background-color: white; BLUETHEME */
+	background-color: #f3f3f3;
 }
 
 /* 28.11.22 Responsive to mobile L (?) Is this an important part? */
