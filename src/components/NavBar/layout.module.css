@@ -1,7 +1,8 @@
 .navHeader {
 	height: 100px;
 
-	background-color: #1f2260;
+	background-color: var(--primary-bgcolor-blue);
+	/* background-color: #1f2260; */
 	/* background-color: #684c4c; */
 
 	display: flex;
@@ -20,7 +21,9 @@
 	border: 3px solid white;
 	border-radius: 50%;
 	padding: 10px;
-	color: white;
+
+	/* color: white; */
+	color: var(--secondary-color-blue);
 }
 
 /* Nav items */
@@ -36,13 +39,17 @@
 
 /* Anchor / NavLink */
 a {
-	color: white;
+	/* color: white; */
+	color: var(--secondary-color-blue);
+
 	text-decoration: none;
 }
 
 a:hover,
 a:focus {
 	text-decoration: underline;
-	color: black;
+
+	color: var(--primary-color-blue);
+	/* color: black; */
 	/* color: #1e1e1e; */
 }

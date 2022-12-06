@@ -1,5 +1,6 @@
 .footer {
-	background-color: #1f2260;
+	background-color: var(--primary-bgcolor-blue);
+	/* background-color: #1f2260; */
 	/* background-color: #432b2b; */
 
 	height: 50px;
@@ -9,6 +10,8 @@
 }
 
 .footerH3 {
-	color: white;
+	/* color: white; */
+	color: var(--secondary-color-blue);
+
 	padding: 10px;
 }
