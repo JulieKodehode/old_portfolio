@@ -16,7 +16,7 @@ const HomePage = () => {
 
 			<section className={styles.sectionRight}>
 				<h1>Julie</h1>
-				<h3>Frontend-utvikler</h3>
+				<h2>Frontend-utvikler</h2>
 				<p>
 					Skal jeg putte inn informasjon på denne siden her som en introduksjon eller skal jeg la siden
 					stå uten info? Går litt frem og tilbake om akkurat dette.. Hva passer best?
