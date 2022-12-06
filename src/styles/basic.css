@@ -1,19 +1,11 @@
 * {
 	box-sizing: border-box;
-
-	/* color: black; */
-	/* color: #1e1e1e; */
-
-	/* color: var(--primary-color-blue); */
 	color: var(--primary-color-purple);
 }
 
 html,
 body {
 	margin: 0;
-
-	/* background-color: white; */
-	/* background-color: #f3f3f3; */
 	background-color: var(--default-bg-color);
 }
 
