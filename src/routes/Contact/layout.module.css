@@ -11,7 +11,11 @@
 }
 
 .contactSection h3 {
-	font-size: 28px;
+	font-size: var(--fontsize-h3);
+}
+
+.contactSection p {
+	font-size: var(--fontsize-general);
 }
 
 .contactSection ul {
@@ -24,7 +28,7 @@
 
 .contactSection ul li {
 	list-style-type: none;
-	font-size: 21px;
+	font-size: var(--fontsize-general);
 }
 
 .contactIcons {

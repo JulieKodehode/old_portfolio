@@ -31,13 +31,13 @@
 }
 
 .sectionRight h1 {
-	font-size: 130px;
+	font-size: var(--fontsize-h1);
 }
 
 .sectionRight h2 {
-	font-size: 34px;
+	font-size: var(--fontsize-h2);
 }
 
 .sectionRight p {
-	font-size: 21px;
+	font-size: var(--fontsize-general);
 }

@@ -11,12 +11,12 @@
 }
 
 .aboutSection h3 {
-	font-size: 28px;
+	font-size: var(--fontsize-h3);
 }
 
 .aboutSection p {
 	text-align: left;
-	font-size: 21px;
+	font-size: var(--fontsize-general);
 }
 
 .aboutSection table {
@@ -26,5 +26,5 @@
 
 .aboutSection td {
 	padding: 5px;
-	font-size: 21px;
+	font-size: var(--fontsize-general);
 }

@@ -8,7 +8,7 @@ const ContactPage = () => {
 		<main className={styles.contactMain}>
 			{/* Contact */}
 			<section className={styles.contactSection}>
-				<h2>Kontakt meg</h2>
+				<h3>Kontakt meg</h3>
 				<p>
 					Jeg søker praksiskplass som frontend-utvikler så kontakt med ved interesse og ta en titt på
 					mitt arbeid frem til nå for et innblikk på mine ferdigheter.
