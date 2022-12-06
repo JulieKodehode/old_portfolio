@@ -8,7 +8,7 @@ const AboutPage = () => {
 		<main className={styles.aboutMain}>
 			{/* About */}
 			<section className={styles.aboutSection}>
-				<h2>Hei! Mitt navn er Julie</h2>
+				<h3>Hei! Mitt navn er Julie</h3>
 
 				{/* Pitch fra en 21st time */}
 				<p>
@@ -26,7 +26,7 @@ const AboutPage = () => {
 
 			{/* Skills */}
 			<section className={styles.aboutSection}>
-				<h2>Mine ferdigheter</h2>
+				<h3>Mine ferdigheter</h3>
 				<table>
 					<tr>
 						<td>HTML</td>
