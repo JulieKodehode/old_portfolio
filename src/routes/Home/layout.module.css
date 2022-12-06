@@ -5,14 +5,12 @@
 	justify-content: space-evenly; /*Closer?*/
 	align-items: center;
 	gap: 100px;
-	color: #010101; /*?*/
 	text-align: center;
 }
 
 /* Section left - portrait */
 .sectionLeft {
 	width: 500px;
-	/* background-color: aqua; */
 }
 
 .sectionLeft img {
@@ -24,7 +22,6 @@
 /* Section right - name, description */
 .sectionRight {
 	width: 500px;
-	/* background-color: chartreuse; */
 }
 
 .sectionRight h1,

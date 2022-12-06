@@ -1,7 +1,4 @@
 .footer {
-	/* background-color: #1f2260; BLUETHEME */
-	background-color: #432b2b;
-
 	height: 50px;
 	display: flex;
 	justify-content: space-around;
@@ -9,7 +6,5 @@
 }
 
 .footerH3 {
-	color: white;
-	/* background-color: red; */
 	padding: 10px;
 }

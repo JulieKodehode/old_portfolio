@@ -1,0 +1,26 @@
+footer {
+	background-color: #1f2260; /*BLUETHEME*/
+	background-color: #432b2b;
+	color: white; /*H3*/
+}
+
+nav {
+	/* background-color: #1f2260; BLUETHEME */
+	background-color: #684c4c;
+	color: white; /*H1, li, a*/
+	color: black; /*BLUETHEME*/
+	color: #1e1e1e; /*a: hover, focus*/
+}
+
+contact {
+	background-color: white; /*icons*/
+}
+
+home {
+	color: #010101; /*?*/
+}
+
+projects {
+	background-color: #1f2260; /*BLUETHEME*/
+	background-color: #432b2b; /*div - gonna be photos*/
+}
