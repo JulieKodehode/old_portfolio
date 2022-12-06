@@ -4,6 +4,7 @@ import { Outlet } from "react-router-dom";
 // Styles
 import "../styles/basic.css";
 import "../styles/colors.css";
+import "../styles/fontsize.css";
 
 // Components
 import NavBar from "../components/NavBar/NavBar";
