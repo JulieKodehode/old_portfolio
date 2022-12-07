@@ -4,7 +4,7 @@ import Wave from "react-wavify";
 const BottomWave = () => (
 	<Wave
 		fill="#1f2260"
-		paused={true} /*GIRL U MAKE ME DIZZY*/
+		paused={false} /*GIRL U MAKE ME DIZZY*/
 		options={{
 			height: 20,
 			amplitude: 60,
