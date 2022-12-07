@@ -5,29 +5,25 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding: var(--padding-medium) var(--padding-large);
+	padding: var(--spacing-medium) var(--spacing-large);
 }
-
-/* .navHeader nav {
-	background-color: red;
-} */
 
 /* Replace with real logo at some point */
 .navHeader h1 {
 	border: 3px solid white;
 	border-radius: 50%;
-	padding: var(--padding-small);
+	padding: var(--spacing-small);
 	color: var(--secondary-color-blue);
 }
 
 /* Nav items */
 .navUl {
 	list-style-type: none;
-	padding: var(--padding-none);
+	padding: var(--spacing-none);
 }
 
 .navUl li {
-	padding: var(--padding-medium);
+	padding: var(--spacing-medium);
 	display: inline-block;
 }
 

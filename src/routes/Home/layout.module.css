@@ -27,7 +27,7 @@
 .sectionRight h1,
 .sectionRight h2,
 .sectionRight p {
-	margin: var(--margin-none);
+	margin: var(--spacing-none);
 }
 
 .sectionRight h1 {

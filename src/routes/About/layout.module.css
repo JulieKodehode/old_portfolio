@@ -20,10 +20,10 @@
 }
 
 .aboutSection table {
-	margin: var(--margin-auto);
+	margin: var(--spacing-auto);
 }
 
 .aboutSection td {
-	padding: var(--padding-small);
+	padding: var(--spacing-small);
 	font-size: var(--fontsize-general);
 }

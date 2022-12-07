@@ -4,17 +4,17 @@
 	align-items: center;
 	text-align: center;
 	font-size: var(--fontsize-general);
-	margin: var(--margin-default);
+	margin: var(--spacing-default);
 }
 
 .projectTitle h3 {
 	font-size: var(--fontsize-h3);
-	margin-top: var(--margin-none);
-	margin-bottom: var(--margin-none);
+	margin-top: var(--spacing-none);
+	margin-bottom: var(--spacing-none);
 }
 
 .projectTitle p {
-	margin-top: var(--margin-none);
+	margin-top: var(--spacing-none);
 }
 
 .projectGrid {
@@ -27,8 +27,6 @@
 	width: 300px;
 	height: 300px;
 	background-color: var(--primary-bgcolor-blue);
-	/* background-color: #1f2260; */
-	/* background-color: #432b2b; */
 }
 
 .projectGrid div:hover {
@@ -40,7 +38,5 @@
 
 .projectGrid p {
 	text-align: center;
-
-	/* color: white; */
 	color: var(--secondary-color-blue);
 }
