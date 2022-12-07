@@ -9,6 +9,7 @@ import "../styles/heights.css";
 
 // Components
 import NavBar from "../components/NavBar/NavBar";
+import BottomWave from "../components/Wave/wave";
 import Footer from "../components/Footer";
 
 /**
@@ -20,6 +21,8 @@ const LandingPage = () => {
 			<NavBar />
 
 			<Outlet />
+
+			<BottomWave />
 
 			<Footer />
 		</>
