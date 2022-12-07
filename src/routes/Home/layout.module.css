@@ -4,7 +4,7 @@
 	flex-direction: row;
 	justify-content: space-evenly; /*Closer?*/
 	align-items: center;
-	gap: 100px;
+	/* gap: 100px; */
 	text-align: center;
 }
 
@@ -24,11 +24,11 @@
 	width: 500px;
 }
 
-.sectionRight h1,
+/* .sectionRight h1,
 .sectionRight h3,
 .sectionRight p {
 	margin: 0;
-}
+} */
 
 .sectionRight h1 {
 	font-size: var(--fontsize-h1);
