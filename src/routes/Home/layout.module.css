@@ -4,7 +4,7 @@
 	flex-direction: row;
 	justify-content: space-evenly; /*Closer?*/
 	align-items: center;
-	gap: 100px;
+	/* gap: 100px; */
 	text-align: center;
 }
 
@@ -24,20 +24,20 @@
 	width: 500px;
 }
 
-.sectionRight h1,
+/* .sectionRight h1,
 .sectionRight h3,
 .sectionRight p {
 	margin: 0;
-}
+} */
 
 .sectionRight h1 {
-	font-size: 130px;
+	font-size: var(--fontsize-h1);
 }
 
 .sectionRight h2 {
-	font-size: 34px;
+	font-size: var(--fontsize-h2);
 }
 
 .sectionRight p {
-	font-size: 21px;
+	font-size: var(--fontsize-general);
 }

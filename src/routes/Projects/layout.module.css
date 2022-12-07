@@ -3,30 +3,29 @@
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	font-size: 21px;
+	font-size: var(--fontsize-general);
 }
 
 .projectTitle h3 {
-	font-size: 28px;
-	margin-bottom: 0;
+	font-size: var(--fontsize-h3);
+	/* margin-bottom: 0; */
 }
 
-.projectTitle p {
+/* .projectTitle p {
 	margin-top: 5px;
-	margin-bottom: 28px; /*Same as h3 top above*/
-}
+	margin-bottom: 28px; Same as h3 top above
+} */
 
 .projectGrid {
 	display: grid;
 	grid-template-columns: auto auto auto;
-	gap: 50px;
-	margin-bottom: 28px; /*Same as h3 top above*/
+	/* gap: 50px; */
+	/* margin-bottom: 28px; Same as h3 top above */
 }
 
 .projectGrid div {
 	width: 300px;
 	height: 300px;
-
 	background-color: var(--primary-bgcolor-blue);
 	/* background-color: #1f2260; */
 	/* background-color: #432b2b; */
