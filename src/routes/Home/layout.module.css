@@ -24,11 +24,11 @@
 	width: 500px;
 }
 
-/* .sectionRight h1,
-.sectionRight h3,
+.sectionRight h1,
+.sectionRight h2,
 .sectionRight p {
-	margin: 0;
-} */
+	margin: var(--margin-none);
+}
 
 .sectionRight h1 {
 	font-size: var(--fontsize-h1);

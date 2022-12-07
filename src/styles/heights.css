@@ -19,13 +19,15 @@ margin-bottom: 28px (something with h3????)
 */
 
 :root {
-	--padding-none: 0;
+	--padding-none: 0em;
 	--padding-small: 0.3125em;
 	--padding-medium: 0.625em;
-	--padding-large: 1.25;
+	--padding-large: 1.25em;
 
-	--margin-none: 0;
+	--margin-none: 0em;
+	--margin-auto: auto;
 	--margin-small: ;
 	--margin-medium: ;
 	--margin-large: ;
+	--margin-default: 1.625em;
 }

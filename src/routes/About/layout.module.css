@@ -20,11 +20,10 @@
 }
 
 .aboutSection table {
-	margin: auto;
-	/* list-style-type: none; */
+	margin: var(--margin-auto);
 }
 
 .aboutSection td {
-	/* padding: 5px; */
+	padding: var(--padding-small);
 	font-size: var(--fontsize-general);
 }
