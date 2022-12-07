@@ -6,6 +6,7 @@
 	align-items: center;
 	/* gap: 100px; */
 	text-align: center;
+	margin: var(--spacing-xlarge);
 }
 
 /* Section left - portrait */
