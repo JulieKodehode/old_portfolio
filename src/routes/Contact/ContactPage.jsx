@@ -10,7 +10,7 @@ const ContactPage = () => {
 			<section className={styles.contactSection}>
 				<h3>Kontakt meg</h3>
 				<p>
-					Jeg søker praksiskplass som frontend-utvikler så kontakt med ved interesse og ta en titt på
+					Jeg søker praksiskplass som frontend-utvikler så kontakt meg ved interesse og ta en titt på
 					mitt arbeid frem til nå for et innblikk på mine ferdigheter.
 				</p>
 				<ul>

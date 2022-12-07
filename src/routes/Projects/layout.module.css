@@ -4,31 +4,29 @@
 	align-items: center;
 	text-align: center;
 	font-size: var(--fontsize-general);
+	margin: var(--spacing-xlarge);
 }
 
 .projectTitle h3 {
 	font-size: var(--fontsize-h3);
-	/* margin-bottom: 0; */
+	margin-top: var(--spacing-none);
+	margin-bottom: var(--spacing-none);
 }
 
-/* .projectTitle p {
-	margin-top: 5px;
-	margin-bottom: 28px; Same as h3 top above
-} */
+.projectTitle p {
+	margin-top: var(--spacing-none);
+}
 
 .projectGrid {
 	display: grid;
 	grid-template-columns: auto auto auto;
-	/* gap: 50px; */
-	/* margin-bottom: 28px; Same as h3 top above */
+	gap: 1.5625em;
 }
 
 .projectGrid div {
 	width: 300px;
 	height: 300px;
 	background-color: var(--primary-bgcolor-blue);
-	/* background-color: #1f2260; */
-	/* background-color: #432b2b; */
 }
 
 .projectGrid div:hover {
@@ -40,7 +38,5 @@
 
 .projectGrid p {
 	text-align: center;
-
-	/* color: white; */
 	color: var(--secondary-color-blue);
 }
