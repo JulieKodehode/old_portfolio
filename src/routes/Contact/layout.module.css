@@ -21,9 +21,9 @@
 .contactSection ul {
 	display: inline-flex;
 	text-align: center;
-	gap: 20px;
-	margin: 10px 0 0 0;
-	padding: 0;
+	/* gap: 20px; */
+	/* margin: 10px 0 0 0; */
+	/* padding: 0; */
 }
 
 .contactSection ul li {
