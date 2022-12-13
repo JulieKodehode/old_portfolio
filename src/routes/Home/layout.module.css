@@ -1,28 +1,28 @@
 /* General */
 .homeMain {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-evenly; /*Closer?*/
+	justify-content: space-evenly;
 	align-items: center;
-	/* gap: 100px; */
 	text-align: center;
-	margin: var(--spacing-xlarge);
+	width: 100%;
 }
 
 /* Section left - portrait */
 .sectionLeft {
-	width: 500px;
+	width: 50%;
 }
 
 .sectionLeft img {
-	height: 400px;
-	width: 400px;
+	height: 25em;
+	width: 25em;
 	border-radius: 50%;
 }
 
 /* Section right - name, description */
 .sectionRight {
-	width: 500px;
+	width: 50%;
 }
 
 .sectionRight h1,
@@ -41,4 +41,91 @@
 
 .sectionRight p {
 	font-size: var(--fontsize-general);
+}
+
+/*  */
+/* Media Query mobile sizes */
+/*  */
+
+/* 4k */
+/* @media screen and (max-width: 2560px) {
+} */
+
+/* Laptop L */
+/* @media screen and (max-width: 1140px) {
+} */
+
+/* Laptop */
+/* WHERE I AM STANDARD? */
+/* @media screen and (max-width: 1024px) {
+} */
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+	.homeMain {
+		flex-direction: column;
+	}
+
+	.sectionLeft img {
+		height: 18em;
+		width: 18em;
+	}
+}
+
+/* Mobile L */
+@media screen and (max-width: 425px) {
+	.homeMain {
+		flex-direction: column;
+	}
+
+	.sectionLeft img {
+		height: 14em;
+		width: 14em;
+	}
+
+	.sectionRight h1 {
+		font-size: var(--fontsize-h2);
+	}
+
+	.sectionRight h2 {
+		font-size: var(--fontsize-h3);
+	}
+}
+
+/* Mobile M */
+@media screen and (max-width: 375px) {
+	.homeMain {
+		flex-direction: column;
+	}
+
+	.sectionLeft img {
+		height: 10em;
+		width: 10em;
+	}
+
+	.sectionRight h1 {
+		font-size: var(--fontsize-general);
+	}
+
+	.sectionRight h2 {
+		font-size: var(--fontsize-general);
+	}
+}
+
+/* TO SMALL TO SHOW ANYTHING REMOVE CONTENT? */
+@media screen and (max-width: 213px) {
+	nav {
+		display: none;
+	}
+
+	.sectionLeft img {
+		display: none;
+	}
+
+	h1,
+	h2,
+	h3,
+	p {
+		display: none;
+	}
 }
