@@ -1,5 +1,7 @@
 // Libraries
+import React from "react";
 import { NavLink } from "react-router-dom";
+
 // CSS
 import styles from "./layout.module.css";
 

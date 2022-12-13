@@ -1,11 +1,12 @@
-// Imports:
+// Libraries:
+import React from "react";
 
 // CSS
 import styles from "./layout.module.css";
 
 const ContactPage = () => {
 	return (
-		<main className={styles.contactMain}>
+		<main id="Contact" className={styles.contactMain}>
 			{/* Contact */}
 			<section className={styles.contactSection}>
 				<h3>Kontakt meg</h3>

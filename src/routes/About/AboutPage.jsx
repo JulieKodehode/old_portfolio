@@ -1,11 +1,12 @@
-// Imports:
+// Libraries:
+import React from "react";
 
 // CSS
 import styles from "./layout.module.css";
 
 const AboutPage = () => {
 	return (
-		<main className={styles.aboutMain}>
+		<main id="About" className={styles.aboutMain}>
 			{/* About */}
 			<section className={styles.aboutSection}>
 				<h3>Hei! Mitt navn er Julie</h3>

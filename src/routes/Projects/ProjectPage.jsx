@@ -1,11 +1,12 @@
-// Imports:
+// Libraries:
+import React from "react";
 
 // CSS
 import styles from "./layout.module.css";
 
 const ProjectPage = () => {
 	return (
-		<main className={styles.projectMain}>
+		<main id="Projects" className={styles.projectMain}>
 			<section className={styles.projectTitle}>
 				<h3>Mine prosjekter</h3>
 				<p>Et lite kollektiv av mine prosjekter fra de siste 6 månedene på KodeHode</p>

@@ -1,3 +1,4 @@
+// Libraries
 import React from "react";
 import Wave from "react-wavify";
 
@@ -6,8 +7,8 @@ const BottomWave = () => (
 		fill="#1f2260"
 		paused={false} /*GIRL U MAKE ME DIZZY*/
 		options={{
-			height: 20,
-			amplitude: 60,
+			height: 100,
+			amplitude: 30,
 			speed: 0.15,
 			points: 5,
 		}}
